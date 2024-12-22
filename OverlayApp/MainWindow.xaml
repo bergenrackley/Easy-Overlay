@@ -1,0 +1,24 @@
+﻿<Window x:Class="OverlayApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Easy Overlay" Height="350" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="0" Name="DefineBoundingBoxButton" Content="Define Bounding Box" Margin="20" Width="120" Height="40" HorizontalAlignment="Left"/>
+        <Button Grid.Row="1" Name="DisplayOverlayButton" Content="Display Overlay" Margin="20" Width="120" Height="40" HorizontalAlignment="Left"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="2">
+            <Label Grid.Row="2" Content="Monitor Scale:" Margin="20" VerticalAlignment="Center"/>
+            <TextBox Grid.Row="2" Name="MonitorScaleTextBox" Margin="0,20,20,20" Width="203" Height="40" PreviewTextInput="MonitorScaleTextBox_PreviewTextInput" VerticalAlignment="Center"/>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="20" HorizontalAlignment="Left">
+            <Label Content="Opacity:" VerticalAlignment="Center"/>
+            <Slider Name="OpacitySlider" Minimum="0" Maximum="100" Value="50" Width="150" IsSnapToTickEnabled="True" TickFrequency="1" VerticalAlignment="Center"/>
+        </StackPanel>
+        <Button Grid.Row="3" Name="SaveSettingsButton" Content="Save Settings" Margin="20" Width="120" Height="40" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>
