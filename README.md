@@ -1,6 +1,6 @@
 # Easy Overlay
 
-A simple Overlay Application I created to make seeing the map in LoL a bit easier. Summon the control panel by pressing Shift + Esc.
+A simple Overlay Application I created using WPF to make seeing the map in LoL a bit easier. Summon the control panel by pressing Shift + Esc.
 
 Click Define Bounding Box to draw a box around the are to be projected to the middle of the sceen, and click Display Overlay to visualize the overlay. Press Shift+Esc to dismiss the overlay.
 
