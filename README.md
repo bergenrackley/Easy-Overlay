@@ -11,4 +11,4 @@ Opacity controls the opacity of the overlay. By default it's around 20%.
 There are some visual bugs if you have HDR turned on. The video stream is also fairly low FPS for some reason, but it's good enough and I can't be bothered to fix it right now.
 
 # Attributions
-App icon from <img width="50" height="50" src="https://img.icons8.com/ios/50/bursts.png" alt="bursts"/>
+App icon from https://icons8.com/
